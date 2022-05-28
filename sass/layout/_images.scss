@@ -3,10 +3,7 @@
 
 .images {
     display: flex;
-    .section-&{
-        padding-top: 0;
-        padding-bottom: 0;
-    }
+    
     &__card{
         position: relative;
         &:not(:last-child) {
@@ -33,3 +30,7 @@
     }
 }
 
+.section-images{
+    padding-top: 0;
+    padding-bottom: 0;
+}
