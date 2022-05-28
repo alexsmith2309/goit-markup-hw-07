@@ -132,14 +132,14 @@
     display: flex;
     align-items: center;
     &::before{
-        background-image: url('./images/checkbox.svg');
+        background-image: url('../../images/checkbox.svg');
         display: inline-block;
         width: 16px;
         height: 15px;
         content: '';
         cursor: pointer;
         margin-right: 8px;
-        .checkbox__item:checked + &{background-image: url(./images/icon\ check\ \(1\).svg)} ;
+        .checkbox__item:checked + &{background-image: url(../../images/icon\ check\ \(1\).svg)} ;
         .checkbox__item:focus + &{outline: 1px solid rgba(0, 0, 255, 0.5);}
     }
 }
