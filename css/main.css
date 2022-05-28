@@ -339,7 +339,7 @@ button {
 }
 
 .checkbox__label::before {
-  background-image: url("../../images/checkbox.svg");
+  background-image: url("../images/checkbox.svg");
   display: inline-block;
   width: 16px;
   height: 15px;
@@ -349,7 +349,7 @@ button {
 }
 
 .checkbox__item:checked + .checkbox__label::before {
-  background-image: url("../../images/icon check (1).svg");
+  background-image: url("../images/icon check (1).svg");
 }
 
 .checkbox__item:focus + .checkbox__label::before {
@@ -812,8 +812,8 @@ button {
       -ms-flex-align: center;
           align-items: center;
   padding: 200px 0;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../../images/imghero.jpg");
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/imghero.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/imghero.jpg");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/imghero.jpg");
   background-size: cover;
   margin: 0 auto;
   max-width: 1600px;
